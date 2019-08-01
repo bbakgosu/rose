@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding-bottom: 30px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  margin-top: 40px;
+
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+
+}
+.instalogo {
+  color: #ff9ff3;
+  text-align: center;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid gray;
+  margin-top: 30px;
+}
+a {
+  text-decoration: none;
+  color: #ff7979;
+}
+.email {
+  padding-top: 77px;
+  text-align: right;
+}
